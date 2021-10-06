@@ -5,12 +5,212 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/flexboxgrid.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <section class="hero">
+    <div class="hero__container container">
+      <header class="hero__header header row middle-xs between-xs">
+        <a class="header__logo" href="index.html">
+          <img class="header__logo-img" src="media/img/site-logo.svg" alt="site-logo">
+        </a>
+        <nav class="header__nav row middle-xs">
+          <ul class="header__list row middle-xs">
+            <li class="header__item"><a class="header__link" href="#">Product</a></li>
+            <li class="header__item"><a class="header__link" href="#">Customers</a></li>
+            <li class="header__item"><a class="header__link" href="#">Pricing</a></li>
+            <li class="header__item"><a class="header__link" href="#">Resources</a></li>
+            <li class="header__item"><a class="header__link sign-link btn" href="#">Sign In</a></li>
+            <li class="header__item"><a class="header__link sign-link2 btn" href="#">Sign Up</a></li>
+            <li>
+              <button class="header__btn">
+                <img src="media/img/header-button.svg" alt="button">
+              </button>
+            </li>
+          </ul>
+          <button class="hero__menu">
+            <i class='bx bx-menu'></i>
+          </button>
+        </nav>
+      </header>
+      <div class="hero__main main">
+        <div class="main__img col-xs-12 col-md-7">
+          <img class="main__img-link" src="media/img/main-img.svg" alt="img">
+        </div>
+        <div class="main__wrapper col-xs-12 col-md-5">
+          <h2 class="main__title">Work at the speed
+            of thought</h2>
+          <p class="main__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+          <ul class="main_list">
+            <li class="main__item">
+              <a class="main__link gs-link btn" href="#">Get started</a>
+            </li>
+            <li class="main__item">
+              <a class="main__link vatch-link" href="#"><i class='bx bx-play'></i>Watch the Video</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <main>
+    <section class="products">
+      <div class="products__container container">
+        <div class="product center-xs">
+          <h2 class="product__title">Product  was Built Specifically for You</h2>
+          <ul class="product__list">
+            <li class="product__item about col-md-3 col-xs-12">
+              <h3 class="about__title">First click tests</h3>
+              <p class="about__text">While most people enjoy casino gambling,</p>
+            </li>
+            <li class="product__item about col-md-3 col-xs-12">
+              <h3 class="about__title">Design surveys</h3>
+              <p class="about__text">Sports betting, lottery and bingo playing for the fun</p>
+            </li>
+            <li class="product__item about col-md-3 col-xs-12">
+              <h3 class="about__title">Preference tests</h3>
+              <p class="about__text">The Myspace page defines the individual.</p>
+            </li>
+            <li class="product__item about col-md-3 col-xs-12">
+              <h3 class="about__title">Five second tests</h3>
+              <p class="about__text">Personal choices and the overall personality of the person. </p>
+            </li>
+          </ul>
+          <div class="product__btn">
+            <a class="product__button btn"href="#">SIGN UP NOW</a>
+          </div>
+        </div>
+      </div>
 
+    </section>
+    <section class="manage">
+      <div class="manage__container container">
+        <div class="manage__wrapper managment row between-xs">
+          <div class="managment__image col-xs-12 col-sm-6 col-md-6">
+            <img class="managment__img" src="media/img/manage.svg" alt="img">
+          </div>
+          <div class="managment__text-sec col-xs-12 col-sm-12 col-md-6">
+            <span class="managment__subtitle">Effortless Validation for</span>
+            <h2 class="managment__title">Management</h2>
+            <p class="managment__text">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+            <h3 class="managment__sub">Accessory makers</h3>
+            <p class="managment__p">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+            <h4 class="managment__h4">Alterationists</h4>
+            <p class="managment__last-text">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="customer">
+      <div class="customer__container container">
+        <div class="customer__support support">
+          <div class="support__img col-sm-12 col-md-6">
+            <img class="support__photo" src="media/img/suppost.svg" alt="img">
+          </div>
+          <div class="support__text-sec col-sm-12 col-md-6">
+            <span class="support__subtitle">Easier decision making for</span>
+            <h2 class="support__title">Customer Support</h2>
+            <p class="support__text">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+            <ul class="support__list">
+              <li class="support__item">
+                Never worry about overpaying for your energy again. 
+              </li>
+              <li class="support__item">
+                We will only switch you to energy companies that we trust and will treat you right
+              </li>
+              <li class="support__item">
+                We track the markets daily and know where the savings are.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="manage">
+      <div class="manage__container container">
+        <div class="manage__wrapper managment row between-xs">
+          <div class="managment__image col-xs-12 col-sm-6 col-md-6">
+            <img class="managment__img" src="media/img/optimal.svg" alt="img">
+          </div>
+          <div class="managment__text-sec col-xs-12 col-sm-12 col-md-6">
+            <span class="managment__subtitle">Optimisation for</span>
+            <h2 class="managment__title">Collaborative</h2>
+            <p class="managment__text">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+            <h3 class="managment__sub">Accessory makers</h3>
+            <p class="managment__p">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+            <h4 class="managment__h4">Alterationists</h4>
+            <p class="managment__last-text">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="process-sec">
+      <div class="process-sec__container container">
+        <div class="process-sec__wrapper process">
+          <h2 class="process__title">Quick & Easy Process</h2>
+          <p class="process__text">Do you require some help for your project: Conception workshop, prototyping, marketing strategy, landing page, Ux/UI?</p>
+          <ul class="process__list row between-xs">
+            <li class="process__item col-sm-12 col-md-5 col-xs-12 row ">
+              <img class="process__avatar1" src="media/img/avatar1.png" alt="avatar">
+              <p class="process__quote">I can take care of pitch</p>
+            </li>
+            <li class="process__item col-sm-12 col-md-5 col-xs-12  row reverse">
+              <img class="process__avatar1" src="media/img/avatar2.png" alt="avatar">
+              <p class="process__quote">I can prototype your app</p>
+            </li>
+            <li class="process__item col-sm-12 col-md-5 col-xs-12 row ">
+              <img class="process__avatar1" src="media/img/avatar3.png" alt="avatar">
+              <p class="process__quote">I can design you website</p>
+            </li>
+            <li class="process__item col-sm-12 col-md-5 col-xs-12  row reverse">
+              <img class="process__avatar1" src="media/img/avatar4.png" alt="avatar">
+              <p class="process__quote">I can help marketing</p>
+            </li>
+          </ul>
+          <div class="process__btn">
+            <a class="process__button btn" href="#">Contact our expert</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="plan-sec">
+      <div class="plan-sec__container container">
+        <div class="plan-sec__plan plan">
+          <h2 class="plan__title">Contents Strategies</h2>
+          <p class="plan__text">We focus on ergonomics and meeting you where you work. It's only a keystroke away. </p>
+          <ul class="plan__list plan-list">
+            <li class="plan__item col-sm-12 col-md-4">
+              <img class="plan__img" src="media/img/image1.png" alt="img">
+              <p class="plan__subtitle">
+                By <b>Wahid Ari</b>  | 03 March 2019 
+              </p>
+              <h3 class="plan-list__title">Increasing Prosperity With Positive Thinking</h3>
+            </li>
+            <li class="plan__item col-sm-12 col-md-4">
+              <img class="plan__img" src="media/img/image2.png" alt="img">
+              <p class="plan__subtitle">
+                By <b>Wahid Ari</b>  | 03 March 2019 
+              </p>
+              <h3 class="plan-list__title">Motivation Is The First Step To Success</h3>
+            </li>
+            <li class="plan__item col-sm-12 col-md-4">
+              <img class="plan__img" src="media/img/image3.png" alt="img">
+              <p class="plan__subtitle">
+                By <b>Wahid Ari</b>  | 03 March 2019 
+              </p>
+              <h3 class="plan-list__title">Success Steps For Your Personal Or Business</h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
   <script src="js/main.js"></script>
 </body>
 </html>
